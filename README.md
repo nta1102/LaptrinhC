@@ -1,0 +1,2 @@
+# LaptrinhC
+Code LaptrinhC
