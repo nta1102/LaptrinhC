@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  int a, tong;
+  printf("Nhap so kilomet a: ");
+  scanf("%d",&a);
+  if (a<30)
+    tong=(a*8000)+11000;
+  else
+  tong=(a*5000)+11000;
+  printf("\n Tong so tien la: %d",tong);
+  return 0;
+}
