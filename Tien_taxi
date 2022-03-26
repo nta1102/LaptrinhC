@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-  int a, tong;
-  printf("Nhap so kilomet a: ");
-  scanf("%d",&a);
-  if (a<30)
-    tong=(a*8000)+11000;
-  else
-  tong=(a*5000)+11000;
-  printf("\n Tong so tien la: %d",tong);
+  float a, sum;
+  printf("Nguyen Tan An - 20142272 \n");
+  printf("Nhap so kilometer a: ");
+  scanf("%f",&a);
+  if (a<=30)
+    sum=(a*16500)+12000;
+    else
+  sum=(a*14600)+12000;
+  printf("\n Tong so tien la: %f",sum);
   return 0;
 }
